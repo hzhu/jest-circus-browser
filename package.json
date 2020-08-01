@@ -1,0 +1,26 @@
+{
+  "name": "jest-circus-browser",
+  "version": "1.0.0",
+  "description": "jest-circus re-exported for a browser environment",
+  "license": "MIT",
+  "author": "Henry Zhu <hz@henryzhu.me>",
+  "homepage": "https://github.com/hzhu/jest-circus-browser",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hzhu/jest-circus-browser.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hzhu/jest-circus-browser/issues"
+  },
+  "main": "dist/jest-circus.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified 😔\" && exit 1"
+  },
+  "devDependencies": {
+    "jest-circus": "^26.2.2",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "string-replace-loader": "^2.3.0"
+  }
+}
