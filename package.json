@@ -1,6 +1,6 @@
 {
   "name": "jest-circus-browser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "jest-circus re-exported for a browser environment",
   "license": "MIT",
   "author": "Henry Zhu <hz@henryzhu.me>",
