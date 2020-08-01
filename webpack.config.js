@@ -13,7 +13,7 @@ module.exports = {
     fs: "empty",
     module: "empty",
   },
-  mode: "development",
+  mode: "production",
   module: {
     rules: [
       {
