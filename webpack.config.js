@@ -5,7 +5,7 @@ module.exports = {
   entry: "./index.js",
   output: {
     filename: "jest-circus.js",
-    path: path.resolve(__dirname, "dist"),
+    path: path.resolve(__dirname, "dist/umd"),
     library: "jestCircus",
     libraryTarget: "umd",
   },
